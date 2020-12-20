@@ -18,7 +18,8 @@ class Book(models.Model):
 
 
 #path = '/Users/sheng/micropythonapi/bestsellers-with-categories.csv'
-path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
+#path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
+path = 'bestsellers-with-categories.csv'
 with open(path) as f:
     reader = csv.reader(f)
     next(reader, None)
