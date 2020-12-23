@@ -1,6 +1,7 @@
 import os
 import csv
-from booksapi.books.models import Book
+#from booksapi.books.models import Book
+from ...models import Book
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 path = os.path.join(BASE_DIR, '/booksapi/staticfiles/bestsellers-with-categories.csv')
