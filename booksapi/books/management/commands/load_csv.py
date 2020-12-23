@@ -3,7 +3,7 @@ import csv
 #from booksapi.books.models import Book
 from ...models import Book
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname('micropythonapi')
 path = os.path.join(BASE_DIR, '/booksapi/staticfiles/bestsellers-with-categories.csv')
 #path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
 #path = 'bestsellers-with-categories.csv'
