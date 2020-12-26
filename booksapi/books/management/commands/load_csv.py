@@ -1,15 +1,13 @@
 import os.path
 import csv
-#from booksapi.books.models import Book
+from booksapi.books.models import Book
 from ...models import Book
 
 #BASE_DIR = os.path.dirname('micropythonapi')
 BASE_DIR = os.path.dirname(os.path.abspath('micropythonapi'))
-path = (BASE_DIR +'booksapi/staticfiles/bestsellers-with-categories.csv')
+path = (BASE_DIR +'/booksapi/staticfiles/bestsellers-with-categories.csv')
 # path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
 # path = 'bestsellers-with-categories.csv'
-
-
 
 with open(path) as f:
     reader = csv.reader(f)
