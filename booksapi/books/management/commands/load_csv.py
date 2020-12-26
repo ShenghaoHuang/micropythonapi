@@ -1,6 +1,5 @@
 import os.path
 import csv
-from booksapi.books.models import Book
 from ...models import Book
 
 #BASE_DIR = os.path.dirname('micropythonapi')
