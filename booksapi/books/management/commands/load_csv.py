@@ -6,8 +6,8 @@ from ...models import Book
 #BASE_DIR = os.path.dirname('micropythonapi')
 BASE_DIR = os.path.dirname(os.path.abspath('micropythonapi'))
 path = (BASE_DIR +'booksapi/staticfiles/bestsellers-with-categories.csv')
-path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
-path = 'bestsellers-with-categories.csv'
+# path = 'https://github.com/ShenghaoHuang/micropythonapi/blob/main/bestsellers-with-categories.csv'
+# path = 'bestsellers-with-categories.csv'
 
 
 
